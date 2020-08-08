@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <title>Utkarsh Gupta | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Fira Mono', 'Ubuntu Mono', 'Consolas', monospace;
+            display: grid;
+            grid-template-columns: 350px auto;
+            grid-template-areas: "aside main";
+            margin: 0;
+            overflow-y: hidden;
+        }
+
+        aside#desktop {
+            grid-area: aside;
+            background-color: black;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        main {
+            grid-area: main;
+            background-color: white;
+            color: black;
+            height: 100vh;
+        }
+
+        aside#desktop>section>ul {
+            list-style-type: none;
+            font-size: 2rem;
+        }
+
+        aside#desktop>section>ul>li:hover {
+            color: dodgerblue;
+            user-select: none;
+            transition: ease 0.3s;
+        }
+
+        .Name-first,
+        .Name-last {
+            user-select: none;
+            font-size: 3rem;
+            padding-left: 40px;
+            margin-top: 0;
+        }
+
+        .Name-first {
+            background-color: red;
+            margin-bottom: 0;
+            padding-top: 24px;
+            padding-bottom: 12px;
+        }
+
+        .Name-last {
+            background-color: blue;
+            padding-top: 12px;
+            padding-bottom: 24px;
+        }
+
+        #Content {
+            height: 100%;
+            overflow-y: scroll;
+            padding: 10px 30px;
+            text-align: justify;
+        }
+
+        .Selected {
+            font-weight: 500;
+            color: rgb(25, 118, 211);
+            transition: ease-in 0.2s;
+        }
+
+        .ContentDiv {
+            display: none;
+        }
+
+        .visible {
+            display: block;
+        }
+
+        main section p {
+            font-size: 1.1rem;
+            font-family: 'Segoe UI', 'Fira Sans', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        main section h2 {
+            display: inline-block;
+            font-size: 2.2rem;
+            border-bottom: 5px solid black;
+            margin-bottom: 0;
+        }
+
+        #emptyContainer {
+            display: none;
+        }
+
+        @media only screen and (max-width: 700px) {
+            body {
+                grid-template-areas: "main main";
+            }
+
+            #desktop {
+                display: none !important;
+            }
+
+            #mobile {
+                display: block;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                color: white;
+                box-shadow: 0 2px 20px 1px rgb(87, 87, 87);
+                padding: 0;
+            }
+
+            #mobile section {
+                padding: 0;
+                white-space: nowrap;
+            }
+
+            #mobile ul {
+                display: flex;
+                overflow-x: auto;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            #mobile ul li {
+                margin: 0;
+                padding: 20px;
+                text-align: center;
+                background-color: black;
+            }
+
+            #emptyContainer {
+                height: 110px;
+                margin: 0;
+                padding: 0;
+                display: block;
+            }
+
+            #mobileHeading {
+                display: grid;
+                grid-template-columns: 57% auto;
+                margin: 0;
+                text-align: center;
+                font-size: 40px;
+            }
+
+            #firstName {
+                padding: 10px;
+                background-color: red;
+            }
+
+            #lastName {
+                padding: 10px;
+                background-color: green;
+            }
+
+            .SelectedMobile {
+                background-color: dodgerblue !important;
+                color: white !important;
+                transition: ease 0.3s;
+            }
+
+            @supports (backdrop-filter: blur(20px)) {
+                #mobile section {
+                    backdrop-filter: blur(20px);
+                }
+
+                #mobile ul {
+                    background-color: transparent;
+                }
+
+                #mobile ul li {
+                    background-color: rgba(0, 0, 0, 0.767);
+                }
+
+                .SelectedMobile {
+                    background-color: rgba(0, 128, 255, 0.644) !important;
+                    color: white !important;
+                    transition: ease 0.3s;
+                }
+
+                #firstName {
+                    background-color: rgba(255, 0, 0, 0.698);
+                }
+
+                #lastName {
+                    background-color: rgba(4, 116, 4, 0.664);
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <aside id="desktop">
+        <section>
+            <h1 class="Name-first">Utkarsh</h1>
+            <h2 class="Name-last">Gupta</h2>
+        </section>
+        <section id="Menu">
+            <ul>
+                <li target="aboutMe" class="Selected">About Me</li>
+                <li target="myWork">My Stuff</li>
+                <li target="myAcademics">My Academics</li>
+                <li target="findMe">Find Me</li>
+            </ul>
+        </section>
+    </aside>
+    <aside id="mobile">
+        <section id="mobileMenu">
+            <h2 id="mobileHeading"><span id="firstName">Utkarsh</span><span id="lastName">Gupta</span></h2>
+            <ul>
+                <li target="aboutMe" class="SelectedMobile">About Me</li>
+                <li target="myWork">My Stuff</li>
+                <li target="myAcademics">My Academics</li>
+                <li target="findMe">Find Me</li>
+            </ul>
+        </section>
+    </aside>
+    <main>
+        <section id="Content">
+            <div id="emptyContainer"></div>
+            <div id="aboutMe" class="ContentDiv visible">
+                <h2>About Me</h2>
+                <p>Hi! I am a post-graduate Computer Applications student from India. I will complete this portfolio
+                    tomorrow.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste quisquam harum ab voluptates. Ducimus
+                    vitae nam id natus. Iure ea nam voluptas fugit nulla error incidunt repellendus, aliquid soluta
+                    adipisci dicta sed eligendi? Repudiandae, commodi animi. Voluptas sed aliquid et quia eveniet optio
+                    magnam animi aspernatur praesentium ad? Error, itaque, ullam veritatis quaerat doloribus explicabo
+                    eum ex repellendus molestias earum nobis sint veniam rerum quod voluptatibus. Pariatur molestiae
+                    repellendus enim aut fugiat, ex perspiciatis consectetur fuga voluptas neque, quae voluptatem
+                    aliquid inventore facilis consequuntur illo tempore rem temporibus! Nostrum, dolor. Illo
+                    exercitationem perspiciatis rerum, nesciunt molestiae eos dolore, nam aperiam in repellendus omnis?
+                    Dolor iusto totam adipisci quae, atque alias in minima corporis laboriosam sapiente deserunt,
+                    reiciendis a quasi optio magnam nihil veritatis aspernatur non labore tempora tempore maxime at, nam
+                    quos? Alias nemo quae odio vitae culpa explicabo praesentium modi cumque, facilis, aperiam
+                    aspernatur inventore ex quod vel eligendi adipisci itaque labore. Impedit error praesentium illum
+                    possimus. Velit odit quod maiores corrupti voluptates magnam animi earum recusandae nisi cumque
+                    totam doloremque repudiandae quidem molestias error consequuntur delectus unde dolorum, voluptate
+                    dolore repellendus tenetur aliquam saepe? Nam ullam culpa praesentium, dignissimos itaque nobis quis
+                    aspernatur, harum eligendi totam, dolor a beatae qui. Nobis, sapiente! Porro officiis officia
+                    laboriosam, quidem voluptatibus tenetur voluptates similique soluta aperiam aliquid distinctio fuga
+                    ipsam libero eos iure eius laudantium obcaecati reprehenderit nemo mollitia explicabo quae
+                    consequuntur. Nobis harum sit magni a illum pariatur sed nulla quod sunt, non, molestias dolore,
+                    ducimus aliquid! Labore facere et praesentium quidem atque adipisci laudantium tenetur! Vero cumque
+                    non maiores placeat distinctio aperiam sunt tempore. Beatae temporibus eius explicabo, deleniti
+                    veritatis non et molestias quas autem veniam ea eaque, neque laudantium harum ipsam ratione cumque
+                    corporis cum nulla? Laboriosam illum repudiandae vitae doloremque deleniti accusantium placeat
+                    excepturi delectus, vero at quis est corrupti corporis neque provident iusto non dicta incidunt.
+                    Vitae necessitatibus cupiditate obcaecati illo eligendi nostrum dicta non dolores! Nobis rerum
+                    voluptate id possimus optio quasi tempora, amet corrupti quia doloribus nisi delectus accusamus
+                    praesentium alias? Voluptatibus ipsum consequatur obcaecati, molestiae, corporis totam laboriosam
+                    necessitatibus atque et quis rem accusamus in fugiat architecto id temporibus exercitationem? Maxime
+                    quasi dolor debitis. Quasi, dolorem aperiam. Nam, praesentium rem omnis modi quos voluptatibus
+                    similique exercitationem quia, quisquam commodi sequi voluptas enim sed nulla vero porro earum natus
+                    libero? Dolore quos et quibusdam, provident sed quidem fuga soluta voluptate id minima architecto ex
+                    neque dolorem illum omnis voluptatum. Iste cupiditate provident non explicabo maiores, eius odio
+                    adipisci ullam ut ex mollitia, ab libero magni hic, quisquam laborum minus beatae eum dolor omnis!
+                    Molestiae rem nihil sequi esse. Libero nobis quo eaque earum aut cum expedita? Provident
+                    consectetur, alias exercitationem esse dolores quos in nisi inventore delectus iusto vitae aliquam
+                    vero iste molestias culpa, qui nihil cum velit doloremque dignissimos. Mollitia quibusdam nisi
+                    officiis amet ratione, atque suscipit. Voluptas, voluptatibus! Iste, quisquam. Aut dolorem sequi
+                    deleniti exercitationem ut labore dignissimos accusantium impedit! Quos aperiam sequi, praesentium
+                    reiciendis libero id labore voluptatum explicabo omnis expedita delectus blanditiis tempora atque?
+                    Culpa fuga illo, natus quasi vitae amet veritatis deserunt beatae laboriosam sequi blanditiis unde
+                    incidunt voluptas nisi? Corporis cum inventore sed molestias doloribus error, totam eius laboriosam
+                    adipisci odit, quae reprehenderit sequi iure reiciendis alias dolor. Nobis quasi dolore magnam
+                    aperiam earum accusamus beatae, nam, eveniet aspernatur non nemo ipsa autem atque tempore reiciendis
+                    voluptatem animi magni modi! Possimus ex, consequatur cupiditate asperiores est architecto ipsa odit
+                    ducimus veritatis necessitatibus ratione totam, iste omnis reprehenderit, similique unde corrupti
+                    deleniti non earum molestias odio. Magni nam cupiditate repudiandae dolor hic ex debitis. Dolorum
+                    soluta optio possimus autem, odio nulla eum? Maiores necessitatibus, modi odit quaerat natus enim ad
+                    omnis aspernatur ratione molestias dicta eligendi facilis accusantium veritatis asperiores provident
+                    magnam dolor alias esse quis perspiciatis animi voluptates numquam. Natus voluptatem animi
+                    blanditiis facere! Deleniti, id eum dolores hic magni fugit, debitis, explicabo veritatis totam
+                    harum minus nulla ipsam cum corporis iure aspernatur omnis perferendis similique. Iusto iste
+                    repudiandae expedita neque quasi ratione quaerat quia fugiat, nostrum dolor sint odit dolorem
+                    temporibus aliquam vitae assumenda nihil veritatis delectus ut praesentium consequatur nemo
+                    voluptas. Consequuntur dolor repudiandae laborum reiciendis quo, perferendis unde cum aspernatur
+                    error. Dolores dolore quam nulla tempora ea quia provident alias reprehenderit. Beatae, tempore
+                    sequi! Impedit, quos mollitia! Nostrum modi magni repudiandae, corrupti earum dignissimos tempore ex
+                    cum corporis illum, facilis nobis qui illo optio et aut deserunt adipisci nemo animi perspiciatis
+                    quae sunt, ipsam perferendis dolorem! Nulla atque eligendi aliquid modi iusto. Laborum nemo
+                    temporibus saepe maiores officiis quod quo, tempora officia dolore optio nobis quos tempore magni
+                    qui aspernatur? Impedit illo exercitationem facilis iure reiciendis, et itaque dolore minima nobis
+                    nihil commodi sed dolor obcaecati doloribus dolores, corrupti deleniti id labore tenetur debitis in
+                    possimus ullam iste. At, praesentium officiis? Molestias doloremque reprehenderit harum adipisci
+                    possimus quibusdam amet odio neque ullam eum eos consequatur ipsa error odit optio eius consequuntur
+                    consectetur explicabo, in modi aut quas, veritatis animi asperiores. Illum blanditiis cum
+                    voluptatem, eaque alias fuga iure consequatur error! Ea inventore ducimus reprehenderit quis eos
+                    fugiat ipsum est, possimus amet explicabo! Numquam temporibus exercitationem quasi perferendis quia
+                    architecto officiis in soluta, iure sint minus voluptatum quas nihil, tenetur ut recusandae deleniti
+                    illum est at? Cupiditate omnis corrupti, autem iste magni dignissimos. Eveniet veritatis non nostrum
+                    sequi possimus voluptas ea voluptates, numquam at facere vitae alias quos vero id tenetur
+                    praesentium cupiditate voluptate harum corporis amet aliquam esse ducimus eligendi! Dolor voluptatum
+                    perferendis rem dolores consequuntur praesentium suscipit amet sit? Libero repudiandae error, magnam
+                    at odio doloribus quasi deserunt quo temporibus ipsum possimus reprehenderit voluptatibus eius nulla
+                    eaque? Magni laborum id possimus. Autem ipsam, magnam molestiae voluptatibus numquam sit placeat
+                    quasi blanditiis officiis corporis obcaecati veniam quae illum. Eligendi quod labore odio provident
+                    delectus inventore, tenetur at, consequatur recusandae dolorum debitis modi voluptatibus, facilis
+                    odit neque quasi iusto doloremque veritatis nihil. Delectus nostrum dignissimos non aspernatur alias
+                    eaque, corrupti minus, necessitatibus in perspiciatis distinctio facilis illo labore aliquam, totam
+                    corporis sapiente quos magni maxime porro!</p>
+            </div>
+            <div id="myWork" class="ContentDiv">
+                <h2>My Stuff</h2>
+            </div>
+            <div id="myAcademics" class="ContentDiv">
+                <h2>My Academics</h2>
+            </div>
+            <div id="findMe" class="ContentDiv">
+                <h2>Find Me</h2>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
