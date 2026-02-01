@@ -15,15 +15,6 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 
 ---
 
-## 🌱 Currently Learning
-- Data Structures & Algorithms (DSA)  
-- Machine Learning fundamentals  
-- Cloud & Network Security  
-- AWS (Cloud Computing)  
-- Git & GitHub  
-
----
-
 ## 🛠️ Tech Stack
 
 ### 🧠 AI / ML
@@ -47,6 +38,15 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 ### 💻 Operating Systems
 ![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
+
+---
+
+## 🌱 Currently Learning
+- Data Structures & Algorithms (DSA)  
+- Machine Learning fundamentals  
+- Cloud & Network Security  
+- AWS (Cloud Computing)  
+- Git & GitHub  
 
 ---
 
