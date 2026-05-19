@@ -1,3 +1,4 @@
+```md
 <!-- Floating Banner -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4b6cb7,100:182848&height=180&section=header&text=Utkersh%20Pandyaa&fontSize=42&fontColor=ffffff" />
@@ -23,9 +24,21 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 
 ---
 
+### 🌐 Frontend Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+---
+
 ### 🧩 Programming Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+---
+
+### ☁️ Cloud & Database
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Amazon AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
 
 ---
 
@@ -65,3 +78,4 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 ---
 
 ⭐ Thanks for visiting my profile!
+```
