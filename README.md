@@ -54,20 +54,19 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 ---
 
 ## 🌱 Currently Learning
-- Data Structures & Algorithms (DSA)  
-- Machine Learning fundamentals  
-- Cloud & Network Security  
-- AWS (Cloud Computing)  
-- Git & GitHub  
+- Advance ML Algorithms  
+- Machine Learning Libraries-Scikit Learn & TensorFlow  
+- Decision Trees & XGBoost
+- Deep Learning  
+- Gradient Descent  
 
 ---
 
 ## 🎯 Goals
-- Build strong foundations in AI/ML and DSA  
-- Gain hands-on experience with AWS and cloud technologies  
-- Learn practical cloud & network security concepts  
+- Build strong foundations in AI/ML  
+- Gain hands-on experience & deep knowledge of Neural Networks  
 - Develop meaningful projects and improve problem-solving skills  
-- Grow consistently as a developer  
+- Grow consistently as a AI/ML developer  
 
 ---
 
