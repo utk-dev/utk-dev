@@ -10,8 +10,7 @@
 ---
 
 ## 👋 About Me
-I am a student learning programming with a strong interest in Artificial Intelligence and Machine Learning.  
-I focus on understanding concepts from the basics, improving problem-solving skills, and building small practical projects.
+Computer Science student passionate about Artificial Intelligence and Machine Learning, focused on continuous learning, problem-solving, and building practical technology-driven solutions.
 
 ---
 
@@ -19,6 +18,10 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 
 ### 🧠 AI / ML
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=plotly&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![Jupyter Lab](https://img.shields.io/badge/Jupyter%20Lab-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ---
@@ -42,7 +45,7 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 ---
 
 ### ⚙️ Dev Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 
 ---
@@ -54,9 +57,9 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 ---
 
 ## 🌱 Currently Learning
-- Advance ML Algorithms  
-- Machine Learning Libraries-Scikit Learn & TensorFlow  
-- Decision Trees & XGBoost
+- Advanced ML Algorithms  
+- Machine Learning Libraries - Scikit-Learn, NumPy & Pandas  
+- Decision Trees & XGBoost  
 - Deep Learning  
 - Gradient Descent  
 
@@ -66,7 +69,7 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 - Build strong foundations in AI/ML  
 - Gain hands-on experience & deep knowledge of Neural Networks  
 - Develop meaningful projects and improve problem-solving skills  
-- Grow consistently as a AI/ML developer  
+- Grow consistently as an AI/ML Developer  
 
 ---
 
@@ -76,4 +79,3 @@ I focus on understanding concepts from the basics, improving problem-solving ski
 ---
 
 ⭐ Thanks for visiting my profile!
-```
