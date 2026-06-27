@@ -22,6 +22,8 @@ Computer Science student passionate about Artificial Intelligence and Machine Le
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=plotly&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
 ![Jupyter Lab](https://img.shields.io/badge/Jupyter%20Lab-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ---
@@ -47,12 +49,13 @@ Computer Science student passionate about Artificial Intelligence and Machine Le
 ### ⚙️ Dev Tools
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat&logo=google&logoColor=white)
 
 ---
 
 ### 💻 Operating Systems
-![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
 
 ---
 
@@ -68,8 +71,8 @@ Computer Science student passionate about Artificial Intelligence and Machine Le
 ## 🎯 Goals
 - Build strong foundations in AI/ML  
 - Gain hands-on experience & deep knowledge of Neural Networks  
-- Develop meaningful projects and improve problem-solving skills  
-- Grow consistently as an AI/ML Developer  
+- Strengthen Data Structures & Algorithms (DSA) skills  
+- Improve problem-solving and logical thinking 
 
 ---
 
